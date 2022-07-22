@@ -71,6 +71,7 @@ $ go version go1.<span class="hljs-number">11</span> linux/amd64
 <p>This config file will contains complete details of a channel related to an organization. It will create three artifacts for a network.</p>
 <ul>
 <li>
+<code> export FABRIC_CFG_PATH=$PWD </code>
 <h6><a id="orderergenesisblock__This_will_initialize_the_Fabrics_orderer_65"></a>orderer.genesis.block : This will initialize the Fabric’s orderer</h6>
 <pre><code>  ./bin/configtxgen -profile EmployeeLedger -outputBlock ./artifacts/orderer.genesis.block
 </code></pre>
